@@ -1,0 +1,20 @@
+{
+  "name": "practice_proj",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.36.1",
+    "@wdio/cli": "^8.36.1",
+    "@wdio/local-runner": "^8.36.1",
+    "@wdio/mocha-framework": "^8.36.1",
+    "@wdio/spec-reporter": "^8.36.1"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js",
+    "smksuite": "npx wdio run ./wdio.conf.js --suite smoke"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.29.0",
+    "chai": "^5.1.0",
+    "exceljs": "^4.4.0"
+  }
+}
